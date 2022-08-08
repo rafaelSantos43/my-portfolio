@@ -1,6 +1,6 @@
 import './navbar.css'
 import React from 'react'
-import {GitHub, Facebook, Instagram, Twitter} from '@material-ui/icons'
+import {GitHub, Facebook, Instagram, Twitter} from '@mui/icons-material'
 
 
 export default function Navbar(){

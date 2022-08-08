@@ -1,6 +1,6 @@
 import $ from 'jquery'
 
- var words = ['Hola,', 'mi nombre es rafael ','bienvenido a mi portafolio'],
+ var words = ['Hello,', 'my name is rafael','welcome to my portfolio'],
 part,
 i = 0,
 offset = 0,
@@ -10,7 +10,7 @@ skiPCount = 0,
 skipDelay = 15,
 speed = 200;
 
-export var textFlick = function (){
+export var TextFlick = function (){
   setInterval(function(){
     if(forwards){
       if(offset >= words[i].length){
@@ -47,5 +47,5 @@ export var textFlick = function (){
 }
 
 $(document).ready(function () {
-  textFlick();
+  TextFlick();
 });

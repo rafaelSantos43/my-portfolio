@@ -1,6 +1,6 @@
 import React from 'react'
 import './home.css'
-import { textFlick } from '../../animetext'
+import { TextFlick } from '../../animetext'
 
 
 export default function Home({ img }) {
@@ -10,7 +10,7 @@ export default function Home({ img }) {
         <div className='container__myPhoto'>
           <h1 className='title__home'>My Portfolio</h1>
           <img className='home__img' src="/assets/img/myphoto2.PNG" alt="" />
-          <span className='word'><textFlick /></span>
+          <span className='word'><TextFlick /></span>
         </div>
 
         <div className='home__circle circle1'></div>
